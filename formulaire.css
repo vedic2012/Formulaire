@@ -1,0 +1,134 @@
+body{
+    background-color: skyblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+}
+
+main{
+    flex: 1;
+    margin-bottom: 65%;
+}
+
+header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: linear-gradient(to bottom, navy, skyblue);
+    padding: 0.9375em;
+    height: 1.875em;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+header img{
+    width: 2.5em;
+    height: 2.5em;
+}
+
+header p{
+    position: absolute;
+    top: 5%;
+    left: 3.75em;
+}
+
+#un{
+    color: aliceblue;
+}
+
+#deux{
+    color: blanchedalmond;
+    font-size: 50px;
+    position: absolute;
+    left: 10%;
+    text-shadow: 2px 2px 5px black;
+}
+
+strong{
+    position: absolute;
+    top: 6em;
+    font-size: 25px;
+}
+
+.formulaire{
+    position: absolute;
+    top: 13em;
+    left: 20em;
+    border: 2px solid white;
+    background-color: aliceblue;
+    border-radius: 5%;
+    padding: 1em;
+    margin: 3.125em;
+    box-shadow: 5px 7px rgba(0,0,0,0.2);
+    margin-bottom: 3.75em;
+}
+
+#form{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5;
+}
+
+#form label{
+    width: 30%;
+    text-align: right;
+    margin-right: 0.5em;
+}
+
+#form input{
+    width: 65%;
+    padding: 0.25em;
+    box-sizing: border-box;
+}
+
+#form input[type="number"]{
+    width: 5.625em;
+    height: 1.5625em;
+}
+
+#form select{
+    width: 5.9375em;
+    height: 1.5625em;
+}
+
+.send{
+    border-radius: 2%;
+    background-color: lightblue;
+    border-color: green;
+}
+
+.send:hover{
+    background: linear-gradient(to bottom, lightgreen, skyblue);
+    
+}
+
+#p{
+    position: absolute;
+    top: 115%;
+    left: 20%;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgb(1, 3, 12), rgb(6, 59, 120));
+}
+
+footer img{
+    left: 0.9375em;
+    width: 2em;
+    height: 2em;
+    
+}
+
+footer p{
+    position: absolute;
+    left: 80%;
+    top: 20%;
+    color: aliceblue;
+}
